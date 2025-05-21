@@ -1,0 +1,8 @@
+creating a database
+    ->create database PDBC;
+use the database
+    ->use pdbc;
+create table inside database
+    ->create table users(username varchar(30),password varchar(30),name varchar(30),email varchar(30));
+display structure of table(optional)
+    ->desc users;
